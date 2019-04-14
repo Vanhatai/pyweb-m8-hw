@@ -11,7 +11,7 @@ def server_static(filename):
 @view("predictions")
 def index():
   now = dt.now()
-  # response.headers["Access-Control-Allow-Origin"] = "*"
+  response.headers["Access-Control-Allow-Origin"] = "*"
   return {
     "date": f"{now.year}-{now.month}-{now.day}",
   }
