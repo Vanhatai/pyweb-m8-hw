@@ -1,6 +1,6 @@
-forecast_url="http://sf-pyw.mosyag.in/m04/api/forecasts"
+// forecast_url="http://sf-pyw.mosyag.in/m04/api/forecasts"
 // forecast_url = "localhost:8081/api/forecasts"
-forecast_url="http://murmuring-thicket-63348.herokuapp.com/api/forecasts"
+forecast_url="http://dry-waters-55375/api/forecasts"
 
 
 $("#main_header").click(function() {
